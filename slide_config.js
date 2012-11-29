@@ -1,14 +1,14 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'HTML5 - where are we at?',
-    subtitle: 'Microsoft Campus Days 2012',
+    title: ' Going client-side on the web',
+    subtitle: 'Citrix Tech Group',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
     enableTouch: true, // Default: true. If touch support should enabled. Note: the device must support touch.
     //analytics: 'UA-XXXXXXXX-1', // TODO: Using this breaks GA for some reason (probably requirejs). Update your tracking code in template.html instead.
-    favIcon: 'images/google_developers_logo_tiny.png',
+    favIcon: '',
     fonts: [
       'Open Sans:regular,semibold,italic,italicsemibold',
       'Inconsolata'
@@ -18,11 +18,11 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Kenneth Auchenbeg',
+    name: 'Kenneth Auchenberg & Daniel Pouzemski',
     company: 'Podio',
     gplus: '',
-    twitter: '@auchenberg',
-    www: 'http://kenneth.io',
+    twitter: '@auchenberg, @fredsmoo',
+    www: 'http://kenneth.io, podio.com',
     github: ''
   }/*, {
     name: 'Second Name',
